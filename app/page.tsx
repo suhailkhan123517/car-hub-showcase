@@ -21,11 +21,10 @@ export default async function Home() {
               <CustomFilter title="Year" />
             </div>
           </div>
-          {/* emty data */}
 
           {!isDataEmpty ? (
             <section>
-              <div className="home__wrapper">
+              <div className="home__cars-wrapper">
                 {allCars?.map((car) => (
                   <CarCard car={car} />
                 ))}

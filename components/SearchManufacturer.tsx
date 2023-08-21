@@ -4,7 +4,6 @@ import { Combobox, Transition } from "@headlessui/react";
 import { SearchManufacturerProps } from "@/types";
 import Image from "next/image";
 import { manufacturers } from "@/constants";
-import { isTemplateMiddleOrTemplateTail } from "typescript";
 
 function SearchManufacturer({
   manufacturer,
