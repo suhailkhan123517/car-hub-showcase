@@ -27,6 +27,9 @@ const ShowMore = ({ pageNumber, isNext }: ShowMoreProps) => {
             title="Show More"
             containerStyles="bg-primary-blue rounded-full text-white"
             handleClick={handleNavigation}
+            textStyles=""
+            rightIcon=""
+            isDisabled={false}
           />
         )}
       </div>
